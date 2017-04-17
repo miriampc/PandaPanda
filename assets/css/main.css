@@ -7,7 +7,7 @@
 
 body{
     background: #1d1a05;
-
+    color:#fff;
 }
 
 header{
@@ -77,4 +77,10 @@ a{
 .articulo{
   margin: 0;
   display: inline-block;
+}
+
+/*js styles*/
+
+.js-show{
+  display: none;
 }
