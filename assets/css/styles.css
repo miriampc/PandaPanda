@@ -1,45 +1,50 @@
- .menu ul li{
-   display: inline-block;
-   list-style: none;
-   padding: 20px;
- }
+.menu ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 20px 20px 20px 0px;
+}
 
- .menu ul li a{
-   cursor: pointer;
-   color:#F1F2AC;
- }
- .contenido{
-   margin-top: 70px;
- }
+.menu ul li a{
+  color:#F1F2AC;
+}
+
+.contenido{
+  margin-top: 70px;
+}
 
 .imagenes-panda{
-  padding: 7% 0px;
+  padding: 35px 0px;
 }
 
 .imagenes-panda figure{
   display: inline-block;
   padding: 0 14px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
 }
 
- .imagenes-panda img{
+.imagenes-panda img{
   height: 200px;
   width: 200px;
   border: 5px solid #767872;
- }
+}
 
- .buttons span{
-   background-color: #ca3c25;
-   display: inline-block;
-   height: auto;
-   width: 32%;
-   padding: 7px 0;
-   text-align: center;
-   font-size: 21px;
- }
+.buttons span{
+  background-color: #ca3c25;
+  display: inline-block;
+  height: auto;
+  width: 32%;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 21px;
+}
 
- .buttons span:hover{
-   border: 1px solid #FCE499;
- }
+.buttons span:hover{
+  border: 1px solid #FCE499;
+}
 
 .parrafo{
   padding: 50px 0;
@@ -57,7 +62,6 @@
 }
 
 /*js styles*/
-
 .js-show{
   display: none;
 }
@@ -72,4 +76,8 @@
   top:10px;
   font-size: 21px;
   color: #fff;
+}
+
+.js-close:hover{
+  cursor: pointer;
 }
