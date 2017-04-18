@@ -9,13 +9,18 @@ window.addEventListener('load',function(){
 
     figure.setAttribute("class","js-figure");
     image.setAttribute("alt",e.alt);
-    image.src=e.url+(id)+".jpg";
+    image.src=e.url+id+".jpg";
     span.setAttribute("class", 'js-close');
 
-    figure.appendChild(image);
     span.appendChild(document.createTextNode("X"));
+    figure.appendChild(span);
+    figure.appendChild(image);
     docFragment.appendChild(figure);
     container.appendChild(docFragment);
+
+    span.onclick=function(){
+      figure.style.display="none";
+    }
   });
 
   document.getElementById('origen').addEventListener("click",function(){

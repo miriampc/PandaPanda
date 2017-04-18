@@ -6,7 +6,7 @@ var allFigures=[{url:directory, alt:"panda jugueton"}, {url:directory, alt:"pand
 function WorkSection(figure){
     this.allFigures=figure;
     this.addImages=function(){
-      this.figures.push({
+      this.allfigures.push({
         url:url,
         alt:alt
       })
