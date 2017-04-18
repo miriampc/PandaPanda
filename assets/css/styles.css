@@ -17,6 +17,7 @@
 }
 
 .imagenes-panda figure{
+  position: relative;
   display: inline-block;
   padding: 0 14px;
   filter: grayscale(100%);
@@ -64,10 +65,6 @@
 /*js styles*/
 .js-show{
   display: none;
-}
-
-.js-figure{
-  position: relative;
 }
 
 .js-close{
