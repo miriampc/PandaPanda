@@ -21,6 +21,9 @@ window.addEventListener('load',function(){
     span.onclick=function(){
       figure.style.display="none";
     }
+    document.getElementById('restaura').addEventListener("click",function(){
+      figure.style.display="inline-block";
+    });
   });
 
   document.getElementById('origen').addEventListener("click",function(){
@@ -31,10 +34,4 @@ window.addEventListener('load',function(){
     document.getElementsByClassName('dos')[0].classList.toggle("js-show");
   });
 
-  document.getElementById('restaura').addEventListener("click",function(){
-    var figure=document.getElementsByClassName('js-figure');
-    for (var i = 0; i < figure.length; i++) {
-      figure[i].style.display="inline-block";
-    }
-  });
 });
